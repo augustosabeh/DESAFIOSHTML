@@ -1,0 +1,112 @@
+<!--Etiquetas de tabla
+1. Crear un archivo html
+2. Utilizando las etiquetas vistas en clase, crear su perfil, es decir:
+- Foto de perfil
+- Lista con edad, nombre, apellido, mail.
+- Un párrafo con una breve descripción de ustedes. -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Augusto Sabeh CV</title>
+</head>
+<body>
+    <h1>Augusto Sabeh</h1>
+    <a href="https://ibb.co/x5fxgVq"><img src="https://i.ibb.co/x5fxgVq/Whats-App-Image-2022-11-10-at-3-39-49-PM.jpg" alt="Whats-App-Image-2022-11-10-at-3-39-49-PM" border="0"></a>a>    <h2>
+        Datos Personales
+    </h2>
+        <ul>
+            <li>Telefono: 3517420051</li>
+            <li>Edad: 23</li>
+            <li>Email: augustosabeh@gmail.com</li>
+        </ul>
+
+    <h2>Sobre mi</h2>
+        <ul>
+            <li><p>Resido en Cordoba, tengo 23 años y me apasiona la programación porque el hecho de 
+                tener la capacidad de resolver cosas con el poder de la logica y la imaginacion
+                siento que no voy a tener limites para resolver cualquier tipo de situacion que se cruce
+            </p></li>
+        </ul>
+
+
+<hr>
+
+<form action="">
+
+<h1>Invitacion a tomar un helado conmigo</h1>
+<section>
+    <p>Para comer conmigo tenes que completar estos datos </p>
+</section>
+<hr>
+
+<section>
+    <h2>Datos</h2>
+    <label for="nombre">#1Como te llamas?</label>
+    <input type="text" id="nombre" placeholder="nombre">
+    <br>
+    <label for="telefono">#2Como es tu telefono?</label>
+    <input type="number" id="telefono" placeholder="sin el 0 y sin el 15" maxlength="10">   
+</section>
+<section>
+    <h2>Disponibilidad</h2>
+    <label for="fecha">1#Que dia podes?</label>
+    <input type="date" id="fecha">
+<br>
+    <label for="hora">2#En que horario?</label>
+    <input type="time" id="hora">
+<br>
+3# En que lugar te gustaria?
+<br>
+<label for="grido">Grido</label>
+<input type="radio" id="grido" name="lugares">
+<a href="https://www.tripadvisor.com.ar/ShowUserReviews-g312741-d3180593-r595399403-Grido_Helado-Buenos_Aires_Capital_Federal_District.html" target="_blank">Ver comentarios de grido</a>
+<a href="https://www.google.es/maps/search/Grido+Helado/@-31.401524,-64.1833705,15z/data=!3m1!4b1 "target="_blank">Ver locales de grido</a>
+<br>
+<label for="freddo">Freddo</label>
+<input type="radio" id="freddo" name="lugares">
+<a href="https://www.tripadvisor.co/ShowUserReviews-g312741-d1139279-r139313509-Freddo-Buenos_Aires_Capital_Federal_District.html"target="_blank">Ver comentarios de Freddo</a>
+<a href="https://www.google.es/maps/search/Freddo+Helado/@-31.4009798,-64.3152396,11z/data=!3m1!4b1"target="_blank">Ver locales de Freddo</a>
+<br>
+<label for="cremolatti">Cremolatti</label>
+<input type="radio" id="cremolatti" name="lugares">
+<a href="https://www.tripadvisor.com.ar/Restaurant_Review-g312805-d8098468-Reviews-Heladeria_Cremolatti-Posadas_Province_of_Misiones_Litoral.html"target="_blank">Ver comentarios de Cremolatti</a>
+<a href="https://www.google.es/maps/search/Cremolatti+Helado/@-31.4014274,-64.2097427,13z/data=!3m1!4b1"target="_blank">Ver locales de Cremolatti</a>
+</section>
+
+<section>
+    <h2>Gustos de helado</h2>
+    <p>Que helado te gusta? (Seleciona los que quieras)</p>
+    <label for="Chocolate">Chocolate</label>
+    <input type="checkbox" id="Chocolate" name="Gustos">
+
+    <label for="Frutilla">Frutilla</label>
+    <input type="checkbox" id="Frutilla" name="Gustos">
+
+    <label for="Crema_rusa">Crema rusa</label>
+    <input type="checkbox" id="Crema_rusa" name="Gustos">
+
+    <label for="Sambayon">Sambayon</label>
+    <input type="checkbox" id="Sambayon" name="Gustos">
+
+    <label for="Dulce de leche">Dulce de leche</label>
+    <input type="checkbox" id="Dulce de leche" name="Gustos">
+  
+<br>
+</section>
+
+<section>
+    
+    <br>
+    <input type="button" value="Enviar información">
+    <input type="reset" value="Borrar campos">
+</section>
+
+
+</form>
+</body>
+</html>
